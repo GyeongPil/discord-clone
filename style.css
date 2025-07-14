@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+ul li:hover{
+    background-color: rgb(57, 111, 248);
+    cursor: pointer;
+}
+
+button{
+    padding: 5px;
+    width: 70px;
+    height: 40px;
+    margin-top: 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightgray;
+}
+
+#dropdown{
+    width: 210px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: rgb(57, 111, 248);
+    padding: 30px;
+    position: absolute;
+    left: 1250px;
+    top: 100px;
+    display: none;
+}
+
+#dropdown p{
+    margin: 6px;
+}
+
+#dropdown-li:hover #dropdown{
+    display: block;
+}
+
+#text-wrap{
+    margin: 150px 0px 0px 300px;
+}
+
+#text-wrap h1{
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+#text-wrap p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#download-wrap{
+    text-align: center;
+    margin-top: 200px;
+}
+
+#download-window-btn{
+    width: auto;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 5px;
+}
+
+#browser-btn{
+    width: auto;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 5px;
+    background-color: rgb(57, 111, 248);
+    color: white;
+}
